@@ -1,3 +1,18 @@
-const = []
-let a = 'abc295'
-let b = [9, 0, -123, 50, 3, 134]
+let myFunction = function(inputNumber) {
+    if (inputNumber % 3 == 0 && inputNumber % 5 == 0) {
+        console.log(inputNumber + ' is multiple of 3 and 5')
+    }
+    // % - це оператор залишку від ділення
+        else if (inputNumber % 3 == 0){
+        console.log(inputNumber + ' is multiple of 3')
+    } 
+        else if (inputNumber % 5 == 0) {
+        console.log(inputNumber + ' is multiple of 5')
+    }  
+        else {
+        console.log('error')
+    }
+}
+myFunction(3)
+myFunction(5)
+myFunction(45)
