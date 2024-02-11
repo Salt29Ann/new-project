@@ -1,0 +1,5 @@
+const NameofPersor1 = "Jack"
+const NameofPerson2 = "David"
+
+let text = "Hello, " + NameofPersor1 + " and " + NameofPerson2 + ". Welcome to our home!"
+console.log(text)
