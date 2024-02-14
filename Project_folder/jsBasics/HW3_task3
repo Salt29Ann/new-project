@@ -1,0 +1,4 @@
+let age = 21
+let adult = age >= 18
+console.log( "Person is adult " , age)
+console.log(adult)

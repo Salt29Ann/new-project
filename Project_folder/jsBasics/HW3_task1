@@ -1,0 +1,12 @@
+let myString = 'Text String'
+console.log(myString)
+
+let myNumber = 2802
+console.log(myNumber)
+
+const X = true
+const Y = null
+const Z = undefined
+console.log(X)
+console.log(Y)
+console.log(Z)
