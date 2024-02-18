@@ -90,6 +90,28 @@ while(count <= 5) {
     count++
 }
 
-do {
-    console.log('counter from previous loop ' + count)
-} while (count < 3)
+// do {
+    // console.log('counter from previous loop ' + count)
+// } while (count < 10)
+
+/* if (count <= 10) {
+    console.log
+    for()
+ } додаткова умова чи підпадає під наші умови */
+
+/* for (count<=10; count++;) {
+    console.log('Text appear')
+}
+
+for (let i = 0; i<=5; ++i) {
+    console.log(i)
+} */
+
+try {
+    func()
+    // let result = 10 / 0
+   }   catch (error) {
+    console.error('Some issues: ', error.message)
+   } finally {
+    console.log('static message after catch')
+   }
