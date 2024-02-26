@@ -120,13 +120,13 @@ function sum (param1, param2, param3) {
 //     return sum 
 // }
 
-function hi() {
-    console.log('Hi')
-    bye()
-}
+// function hi() {
+//     console.log('Hi')
+//     bye()
+// }
 
-function bye() {
-    console.log('bye')
-}
+// function bye() {
+//     console.log('bye')
+// }
 
-hi()
+// hi()
