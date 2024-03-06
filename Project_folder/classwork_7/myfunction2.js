@@ -55,11 +55,11 @@
 // }
 // myCar.makeSignal()
 
-// const car2 = {type: "Nissan"}
+// const car2 = {type: "Nissan"} 
 
 // function showType () { console.log(this.type) }
 // myCar.function1 = showType 
-// car2.function2 = showType // function2: () { console.log(this.type) }
+// car2.function2 = showType 
 
 // car2.function2()
 // myCar.function1()
@@ -106,7 +106,7 @@
 // // анонімні функції викор для викликання коду тут і зараз і в той момент де вона оголошена, в тій області видимості де будете викор
 // (function(){
 //     // function body 
-//     //console.log
+//     //console.log("context of Anonymous function")
 // }) ()
 
 
@@ -124,8 +124,9 @@ function master () {
 
 let closureFunc = master()
 
-console.log(closureFunc())
-console.log(closureFunc())
+// closureFunc() 
+console.log(closureFunc()) // 11
+console.log(closureFunc()) // 12
 
 // рекрусивні функції - виклик самої себе
 function factorial(n) {
@@ -140,7 +141,26 @@ function factorial(n) {
 const factorialRes = factorial(5)
 console.log(factorialRes)
 
+//Давайте розглянемо кожен крок для factorial(5):
+
+// factorial(5) поверне 5 * factorial(4)
+// factorial(4) поверне 4 * factorial(3)
+// factorial(3) поверне 3 * factorial(2)
+// factorial(2) поверне 2 * factorial(1)
+// factorial(1) поверне 1 * factorial(0)
+// При factorial(0) досягається базовий випадок, і функція повертає 1.
+
+// Тепер розглянемо, як ці значення з'єднуються разом:
+
+// factorial(1) повертає 1 * factorial(0), а factorial(0) дорівнює 1.
+// factorial(2) повертає 2 * 1, отже, 2.
+// factorial(3) повертає 3 * 2, отже, 6.
+// factorial(4) повертає 4 * 6, отже, 24.
+// factorial(5) повертає 5 * 24, отже, 120.
+// Отже, результат factorial(5) дорівнює 120, як і очікувалося
 
 // Iterators - ф-ії які дозволяють послідовно перебирати дані в будь-яких коллекціях
 
 // Generators - функціонал який дозволяє створ колекції даних тої довжини якої нам потрібно 
+
+
