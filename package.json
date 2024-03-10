@@ -1,11 +1,10 @@
 {
   "devDependencies": {
-    "husky": "^9.0.11",
-    {
-      "hooks": {
-        "pre-commit": "eslint ."
-      }
+    "husky": "^9.0.11"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint ."
     }
   }
-  
 }
