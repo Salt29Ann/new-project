@@ -11,7 +11,7 @@
   "author": "Anna Salt",
   "license": "ISC",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git+https://github.com/Salt29Ann/AQA_testing.git"
   },
   "bugs": {
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Salt29Ann/AQA_testing#readme",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "3.2.5"
   }
 }
