@@ -33,3 +33,6 @@ class Book {
 const books = [book1, book2, book3]
 const oldBook = Book.findOldestbook(books);
 console.log('The oldest book is:', oldBook.bookTitle, oldBook.bookYear)
+
+// const abc = "HEllo" 
+// const cbd = 'Bye'
