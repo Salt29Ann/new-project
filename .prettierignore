@@ -3,3 +3,6 @@ node-modules/
 package-lock.json
 package.json
 Project_folder/classwork_5/if.js
+cypress.config.js
+.prettierrc
+.eslintrc.cjs
