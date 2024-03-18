@@ -35,7 +35,7 @@ class MyClass {
 
 class User {
   #timeout = 3000;  // приватний метод для основного базового класуб недоступні для класів наслідників
-  static country = 'ua'; // оголошено тільки всередині батьківського класу
+  static country = 'ua'; // оголошено тільки всередині батьківського класупше 
   constructor(name, age, url) {
     this.name = name;
     this.age = age;
