@@ -6,7 +6,7 @@ describe('template spec', () => {
     cy.get('.yarpp > ul > :nth-child(8) > a').click();
     cy.get(':nth-child(13) > tbody > :nth-child(1) > :nth-child(2) > strong > a > span').click();
     cy.get(':nth-child(11) > .nohover > .entered').click();
-    cy.get(':nth-child(7git) > :nth-child(5) > .button1').click();
+    cy.get(':nth-child(7) > :nth-child(5) > .button1').click();
     /* ==== End Cypress Studio ==== */
   })
 })
