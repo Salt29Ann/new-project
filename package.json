@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Salt29Ann/AQA_testing#readme",
   "dependencies": {
+    "chalk": "^5.3.0",
     "jest": "^29.7.0"
   },
   "devDependencies": {
