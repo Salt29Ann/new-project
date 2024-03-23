@@ -1,5 +1,5 @@
+// реалізація коду: перевірка присутності модальноо вікна на веб сторінці, прийняття умов 
 describe('template spec', () => {
- 
 before(() => {
     cy.visit('https://www.guru99.com/');
     cy.get('body').then(($body) => {
@@ -10,7 +10,6 @@ before(() => {
       }
     });
   });
- 
  
 //   before(() => {
 //     cy.visit('https://www.guru99.com/');
