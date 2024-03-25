@@ -40,7 +40,7 @@ describe('QAUTO test case #3', () => {
   .click()
   .clear()
   .type('25.03.2024');
-  cy.get('input[id="addExpenseLiters"').should('be.visible')
+  cy.get('input[id="addExpenseLiters"]').should('be.visible')
   .click()
   .clear()
   .type('20');
@@ -48,7 +48,7 @@ describe('QAUTO test case #3', () => {
   .click()
   .clear()
   .type('1100');
-  cy.get('input[id="addExpenseMileage"').should('be.visible')
+  cy.get('input[id="addExpenseMileage"]').should('be.visible')
   .click()
   .clear('975')
   .type('1000');
